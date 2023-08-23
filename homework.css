@@ -1,0 +1,125 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.nepal{
+    width:100%;
+height: 80px;
+background-color: hsl(0, 0%, 33%);
+margin-top: 10px;
+display: flex;
+justify-content: space-between;
+padding-top: 30px;
+}
+.nepal h2{
+    color: white;
+font-weight: 900;
+padding-left: 20px;
+}
+.nepal ul{
+    list-style-type: none;
+color:#fff;
+display: flex;
+gap: 50px;
+}
+.category:hover{
+    background-color: crimson;
+    border-radius: 9px;
+    width: 150px;
+    height:36px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.nepal button{
+    width: 250px;
+height: 36px;
+background: transparent;
+color: #fff;
+padding-right: 50px;
+text-align: left;
+margin-right: 10px;
+padding-left:10px;
+border: none;
+border-radius: 9px;
+}
+.nepal button:hover{
+    background-color: crimson;
+    cursor: pointer;
+}
+.market{
+    width:100%;
+height: 150px;
+background-color: hsl(0, 0%, 33%);
+margin-top: 40px;
+}
+.market h1{
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+    font-family: cursive;
+    margin-bottom:30px;
+}
+.market span{
+color: yellowgreen;
+font-weight: 900;
+font-family: cursive;
+}
+.market ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 200px;
+    justify-content:center;
+}
+.items:hover{
+background-color: yellowgreen;
+width: 150px;
+height: 35px;
+border-radius: 20px;
+text-align: center;
+padding-top: 7px;
+cursor: progress;
+}
+.logo{
+    width:100%;
+    height: 80px;
+    background-color: hsl(0, 0%, 33%);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 300px;
+}
+.logo h2{
+    color: white;
+    font-weight: 900;
+    padding-left: 20px;
+    font-size: medium;
+}
+.logo ol{
+    list-style-type: none;
+    color:#fff;
+    display: flex;
+    gap: 50px;
+}
+.item{
+   width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 7px;
+}
+.item:hover{
+    background-color:dodgerblue;
+    cursor: pointer;
+}
+.triangle{
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    border-bottom: 50px solid green;
+    margin: 2rem;
+}

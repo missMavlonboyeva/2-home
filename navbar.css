@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.navbar{
+width: 100%;
+height: 80px;
+background:#444;
+align-items: center;
+display: flex;
+justify-content: space-between;
+padding-right: 10%;
+padding-left: 10%;
+}
+.logo{
+color: white;
+}
+.logo span{
+    color: crimson;
+}
+.collection{
+display: flex;
+    list-style: none;
+    gap: 40px;
+color: white;
+}
+ol:hover{
+    width:100px;
+height: 30px;
+background-color:crimson;
+border-radius: 20px;
+text-align: center;
+padding-bottom: 5px;
+padding: 10px;
+
+
+}
+.btn{
+    width: 180px;
+    height: 38px;
+border-radius: 20px;
+color: white;
+background-color: crimson;
+border: none;
+}
+.btn:hover{
+    background: linear-gradient(45deg,darkred,yellow);
+}
